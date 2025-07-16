@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Form Pengajuan Cuti"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/editNama"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Masukan Nama Anda"
+            android:inputType="text"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/tanggalMulaiEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal Mulai (YYYY-MM-DD)"
+            android:inputType="date"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/tanggalSelesaiEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal Selesai (YYYY-MM-DD)"
+            android:inputType="date"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/editJumlahHari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="masukan sisa jumlah cuti"
+            android:inputType="text"
+            android:layout_marginBottom="12dp"/>
+
+
+        <EditText
+            android:id="@+id/alasanEdit"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Alasan Cuti"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:background="@android:drawable/editbox_background"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnAjukanCuti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ajukan Cuti"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</ScrollView>

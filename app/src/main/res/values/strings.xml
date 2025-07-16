@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MasukBoss</string>
+    <string name="open">Buka Menu</string>
+    <string name="close">Tutup Menu</string>
+</resources>
